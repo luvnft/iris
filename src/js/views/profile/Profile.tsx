@@ -77,7 +77,7 @@ function Profile(props) {
         if (nostrAddress.match(/.+\..+/)) {
           nostrAddress = '_@' + nostrAddress;
         } else {
-          nostrAddress = nostrAddress + '@iris.to';
+          nostrAddress = nostrAddress + '@iam.luvnft.com';
         }
       }
 
@@ -125,7 +125,7 @@ function Profile(props) {
   }
 
   const title = profile.display_name || profile.name || 'Profile';
-  const ogTitle = `${title} | Iris`;
+  const ogTitle = `${title} | IAM`;
   const description = `Latest posts by ${profile.display_name || profile.name || 'user'}. ${
     profile.about || ''
   }`;

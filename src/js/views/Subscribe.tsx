@@ -9,17 +9,17 @@ const Subscribe: React.FC<RouteProps> = () => (
     <div className="main-view" id="settings">
       <div className="centered-container mobile-padding15">
         <h2>{t('subscribe')}</h2>
-        <h3>Iris Supporter</h3>
+        <h3>IAM Supporter</h3>
         <p>Support open source development and get extra features!</p>
         <p>
           <ul>
-            <li>Iris Supporter Badge</li>
-            <li>Purple checkmark on Iris</li>
-            <li>Iris Supporters' private group chat</li>
+            <li>IAM Supporter Badge</li>
+            <li>Purple checkmark on IAM</li>
+            <li>IAM Supporters' private group chat</li>
             {/*
                 :D
-                  <li>Email-DM bridge for your Iris address</li>
-                  <li>Bitcoin Lightning proxy for your Iris address</li>
+                  <li>Email-DM bridge for your IAM address</li>
+                  <li>Bitcoin Lightning proxy for your IAM address</li>
                   <li>Custom themes for your profile page</li>
                   <li>Profile view statistics</li>
                 */}
@@ -48,12 +48,12 @@ const Subscribe: React.FC<RouteProps> = () => (
           <button className="btn btn-primary">Subscribe</button>
         </p>
 
-        <h3>Iris Titan</h3>
+        <h3>IAM LUV</h3>
         <p>
-          True Mighty Titan status. Lifetime Iris Purple access, plus:
+          True LUV status. Lifetime IAM Purple access, plus:
           <ul>
-            <li>Iris Titan Badge</li>
-            <li>Iris Titans private group chat</li>
+            <li>IAM LUV Badge</li>
+            <li>IAM LUV private group chat</li>
             <li>Priority support</li>
           </ul>
         </p>

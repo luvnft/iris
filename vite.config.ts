@@ -13,8 +13,8 @@ export default defineConfig({
         // enabled: true,
       },
       manifest: {
-        name: 'Iris',
-        short_name: 'Iris',
+        name: 'IAM',
+        short_name: 'IAM',
         icons: [
           {
             src: '/img/android-chrome-192x192.png',

@@ -7,7 +7,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "iris",
+    "productName": "iam",
     "version": "0.2.2"
   },
   "tauri": {
@@ -63,7 +63,7 @@
         "fullscreen": false,
         "height": 800,
         "resizable": true,
-        "title": "iris",
+        "title": "iam",
         "width": 1024
       }
     ]

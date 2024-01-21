@@ -10,7 +10,7 @@ import Name from '../components/user/Name';
 import { translate as t } from '../translations/Translation.mjs';
 import Helpers from '../utils/Helpers';
 
-const IRIS_INFO_ACCOUNT = 'npub1wnwwcv0a8wx0m9stck34ajlwhzuua68ts8mw3kjvspn42dcfyjxs4n95l8';
+const IAM_INFO_ACCOUNT = 'npub1052tld39024jy5pn9a5clv8nddaxe8pywz63ul4ns9h483c3ye9qsn7jxu';
 
 const About: React.FC<RouteProps> = () => (
   <>
@@ -18,7 +18,7 @@ const About: React.FC<RouteProps> = () => (
     <div className="main-view prose">
       <div className="px-2 md:px-4 py-2">
         <h2 className="mt-0">{t('about')}</h2>
-        <p>Iris is like the social networking apps we're used to, but better:</p>
+        <p>IAM is a postive vibes only social network with no weird algorithms:</p>
         <ul>
           <li>
             <b>Accessible.</b> No phone number or signup is required. Just type in your name or
@@ -38,8 +38,8 @@ const About: React.FC<RouteProps> = () => (
           <p>
             <ul>
               <li>
-                <a target="_blank" href="https://iris.to">
-                  iris.to
+                <a target="_blank" href="https://iam.luvnft.com">
+                  iam.luvnft.com
                 </a>{' '}
                 (web)
               </li>
@@ -74,9 +74,9 @@ const About: React.FC<RouteProps> = () => (
           </p>
         </Show>
 
-        <h3>Iris docs</h3>
+        <h3>IAM docs</h3>
         <p>
-          Visit Iris <a href="https://github.com/irislib/faq">FAQ</a> for features, explanations and
+          Visit IAM <a href="https://github.com/irislib/faq">FAQ</a> for features, explanations and
           troubleshooting.
         </p>
 
@@ -85,20 +85,20 @@ const About: React.FC<RouteProps> = () => (
 
         <h3>Follow</h3>
         <div className="flex flex-row items-center w-full justify-between">
-          <Link href={`/${IRIS_INFO_ACCOUNT}`} className="flex flex-row items-center gap-2">
-            <Avatar str={IRIS_INFO_ACCOUNT} width={40} />
-            <Name pub={IRIS_INFO_ACCOUNT} placeholder="Iris" />
+          <Link href={`/${IAM_INFO_ACCOUNT}`} className="flex flex-row items-center gap-2">
+            <Avatar str={IAM_INFO_ACCOUNT} width={40} />
+            <Name pub={IAM_INFO_ACCOUNT} placeholder="IAM" />
           </Link>
-          <Follow className="btn btn-neutral btn-sm" id={IRIS_INFO_ACCOUNT} />
+          <Follow className="btn btn-neutral btn-sm" id={IAM_INFO_ACCOUNT} />
         </div>
 
         <p>
-          <a href="https://t.me/irismessenger">Telegram</a> channel.
+          <a href="https://discord.com/channels/910051231437819914/shop">Discord</a> channel.
         </p>
 
         <p>
           Released under MIT license. Code:{' '}
-          <a href="https://github.com/irislib/iris-messenger">Github</a>.
+          <a href="https://github.com/luvnft/iris-messenger">Github</a>.
         </p>
         <br />
       </div>

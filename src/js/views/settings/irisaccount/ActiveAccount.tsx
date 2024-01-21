@@ -4,7 +4,7 @@ import AccountName from '@/views/settings/irisaccount/AccountName.tsx';
 
 export default function ActiveAccount({ name, setAsPrimary }) {
   const onClick = () => {
-    const newNip = name + '@iris.to';
+    const newNip = name + '@iam.luvnft.com';
     const timeout = setTimeout(() => {
       SocialNetwork.setMetadata({ nip05: newNip });
     }, 2000);
@@ -23,7 +23,7 @@ export default function ActiveAccount({ name, setAsPrimary }) {
   return (
     <div>
       <div className="negative">
-        You have an active iris.to account:
+        You have an active iam.luvnft.com account:
         <AccountName name={name} />
       </div>
       <p>

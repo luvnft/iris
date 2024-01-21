@@ -3,13 +3,13 @@ const text = (
     <b>End User Licence Agreement</b>
     <p>
       This End User Licence Agreement ("EULA") is a legal agreement between you and Sirius Business
-      Ltd. for the use of the mobile application Iris. By installing, accessing, or using our
+      Ltd. for the use of the mobile application IAM. By installing, accessing, or using our
       application, you agree to be bound by the terms and conditions of this EULA. If you do not
       agree to this EULA, you may not use our Application.
     </p>
 
     <p>
-      You agree not to use Iris for Prohibited Content or Conduct that includes, but is not limited
+      You agree not to use IAM for Prohibited Content or Conduct that includes, but is not limited
       to:
     </p>
     <ul>
@@ -50,7 +50,7 @@ const text = (
       use of the app after the posting of any modified EULA indicates your acceptance of the terms
       of the modified EULA.
     </p>
-    <p>If you have any questions about this EULA, please contact us at sirius@iris.to.</p>
+    <p>If you have any questions about this EULA, please contact us at info@luvnft.com.</p>
   </>
 );
 

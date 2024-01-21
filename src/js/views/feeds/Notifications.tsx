@@ -43,7 +43,7 @@ const Notifications: React.FC<RouteProps> = () => {
         const node = localState.get('settings').get('notifications').get('saveLastOpened');
         node.once((saveLastOpened) => {
           if (saveLastOpened !== false) {
-            // TODO this gets triggered only once per Iris session?
+            // TODO this gets triggered only once per IAM session?
             const time = Math.floor(Date.now() / 1000);
             console.log('set state');
             publicState.get('notifications').get('lastOpened').put(time);

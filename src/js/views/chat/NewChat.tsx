@@ -64,7 +64,7 @@ export const sendSecretInvite = async (recipient) => {
   const anonymousInviterKey = generatePrivateKey();
   const kind = 4;
   const created_at = Math.floor(Date.now() / 1000);
-  const content = `This is an invitation to a secret chat. Use ${nsec} or go to https://iris.to/chat/#${nsec}`;
+  const content = `This is an invitation to a secret chat. Use ${nsec} or go to https://iam.luvnft.com/chat/#${nsec}`;
 
   let innerEvent = {
     kind,

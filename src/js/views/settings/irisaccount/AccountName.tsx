@@ -10,20 +10,20 @@ export default function AccountName({ name, link = true }) {
         Short link:{' '}
         {link ? (
           <a
-            href={`https://iris.to/${name}`}
+            href={`https://iam.luvnft.com/${name}`}
             onClick={(e) => {
               e.preventDefault();
               route(`/${name}`);
             }}
           >
-            iris.to/{name}
+            iam.luvnft.com/{name}
           </a>
         ) : (
-          <>iris.to/{name}</>
+          <>iam.luvnft.com/{name}</>
         )}
       </p>
       <p>
-        Nostr address (nip05): <b>{name}@iris.to</b>
+        Nostr address (nip05): <b>{name}@iam.luvnft.com</b>
       </p>
     </>
   );
