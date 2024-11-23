@@ -28,13 +28,13 @@ const Header = () => {
   const loggedIn = !!pub;
 
   return (
-    <div className="sticky top-0 z-10 cursor-pointer flex flex-wrap">
-      <div className="w-full overflow-x-hidden bg-black md:bg-opacity-50 md:shadow-lg md:backdrop-blur-lg px-2">
+    <div className="sticky top-0 z-10 flex flex-wrap cursor-pointer">
+      <div className="w-full px-2 overflow-x-hidden bg-black md:bg-opacity-50 md:shadow-lg md:backdrop-blur-lg">
         <div className="flex items-center justify-between h-12 overflow-hidden">
           <Show when={isHome}>
             <div className="flex flex-row items-center gap-2 md:hidden">
               <img src="/img/icon128.png" width="30" height="30" />
-              <h1 className=" text-3xl">iris</h1>
+              <h1 className="text-3xl ">IAM</h1>
             </div>
           </Show>
           <Show when={!isHome}>
