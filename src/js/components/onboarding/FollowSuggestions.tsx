@@ -8,9 +8,9 @@ import { translate as t } from '@/translations/Translation.mjs';
 
 const SUGGESTED_FOLLOWS = [
   [
-    'npub1sn0wdenkukak0d9dfczzeacvhkrgz92ak56egt7vdgzn8pv2wfqqhrjdv9',
-    '"I used to work for the government. Now I work for the public."',
-  ], // snowden
+    'npub1s0k9j8vn4nnjwqcze568ayx83k32jardqfh7hrk7c3mlpqkwgj0qucp3c9',
+    '"I made a free united Web5 for the world powered by Bitcoin Love Money."',
+  ], // Wizard of Hahz
   ['npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m', 'Former CEO of Twitter'], // jack
   [
     'npub1a2cww4kn9wqte4ry70vyfwqyqvpswksna27rtxd8vty6c74era8sdcw83a',
@@ -38,11 +38,11 @@ const SUGGESTED_FOLLOWS = [
 
 export default function FollowSuggestions({ setShowFollowSuggestions }) {
   return (
-    <div className="flex flex-col flex-grow px-2 py-4 md:px-4 gap-2">
+    <div className="flex flex-col flex-grow gap-2 px-2 py-4 md:px-4">
       <p className="text-base">{t('follow_someone_info')}</p>
       {SUGGESTED_FOLLOWS.map(([pub, description]) => (
         <div key={pub + 'suggestion'} className="flex items-center space-x-4">
-          <Link href={`/${pub}`} className="flex flex-grow items-center space-x-2">
+          <Link href={`/${pub}`} className="flex items-center flex-grow space-x-2">
             <div className="w-10 h-10">
               <Avatar str={pub} width={40} />
             </div>
