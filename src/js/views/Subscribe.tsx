@@ -52,8 +52,8 @@ const Subscribe: React.FC<RouteProps> = () => (
         <p>
           True LUV status. Lifetime IAM Purple access, plus:
           <ul>
-            <li>IAM LUV Badge</li>
-            <li>IAM LUV private group chat</li>
+            <li>IAM</li>
+            <li>IAM private group chat</li>
             <li>Priority support</li>
           </ul>
         </p>

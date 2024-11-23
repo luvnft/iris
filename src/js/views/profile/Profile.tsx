@@ -77,7 +77,7 @@ function Profile(props) {
         if (nostrAddress.match(/.+\..+/)) {
           nostrAddress = '_@' + nostrAddress;
         } else {
-          nostrAddress = nostrAddress + '@iam.luvnft.com';
+          nostrAddress = nostrAddress + '@iam.hahz.live';
         }
       }
 

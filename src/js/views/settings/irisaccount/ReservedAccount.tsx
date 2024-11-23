@@ -4,7 +4,7 @@ export default function ReservedAccount({ name, enableReserved, declineReserved 
   return (
     <div>
       <p className="text-iris-green">
-        Username iam.luvnft.com/<b>{name}</b> is reserved for you!
+        Username iam.hahz.live/<b>{name}</b> is reserved for you!
       </p>
       <AccountName name={name} link={false} />
       <p>

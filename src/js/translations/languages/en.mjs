@@ -121,7 +121,7 @@ export default {
   "view_as": "View as",
   "wednesday": "Wednesday",
   "whats_on_your_mind": "What's on your mind?",
-  "whats_your_name": "What's your name?",
+  "whats_your_name": "I am?",
   "write_your_reply": "Write your reply",
   "yesterday": "yesterday",
   "you": "You",

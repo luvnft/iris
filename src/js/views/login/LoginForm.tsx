@@ -46,15 +46,15 @@ const LoginForm: React.FC<LoginFormProps> = ({ onSubmit, onNameChange, onShowSwi
 
   return (
     <form
-      className="shadow-md bg-black rounded px-8 pt-6 pb-8 mb-4 gap-4 flex flex-col items-center justify-center"
+      className="flex flex-col items-center justify-center gap-4 px-8 pt-6 pb-8 mb-4 bg-black rounded shadow-md"
       autocomplete="off"
       onSubmit={(e) => {
         e.preventDefault();
         onSubmit();
       }}
     >
-      <img className="w-20 h-20 mx-auto" src="/img/android-chrome-192x192.png" alt="iam" />
-      <h1 className="text-2xl font-bold">iam</h1>
+      <img className="w-20 h-20 mx-auto" src="/img/android-chrome-192x192.png" alt="IAM" />
+      <h1 className="text-2xl font-bold">IAM</h1>
       <input
         className={`input centered-placeholder ${name.length ? 'text-center' : ''}`}
         onInput={(e: any) => {

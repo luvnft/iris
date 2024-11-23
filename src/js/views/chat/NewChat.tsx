@@ -64,7 +64,7 @@ export const sendSecretInvite = async (recipient) => {
   const anonymousInviterKey = generatePrivateKey();
   const kind = 4;
   const created_at = Math.floor(Date.now() / 1000);
-  const content = `This is an invitation to a secret chat. Use ${nsec} or go to https://iam.luvnft.com/chat/#${nsec}`;
+  const content = `This is an invitation to a secret chat. Use ${nsec} or go to https://iam.hahz.live/chat/#${nsec}`;
 
   let innerEvent = {
     kind,
@@ -108,11 +108,11 @@ export default function NewChat() {
   };
 
   return (
-    <div className="flex flex-1 flex-col items-center justify-center h-full">
+    <div className="flex flex-col items-center justify-center flex-1 h-full">
       <div className="flex flex-row gap-2">
         <input
           type="text"
-          className="input rounded-full input-bordered"
+          className="rounded-full input input-bordered"
           placeholder="Group name"
           onChange={handleGroupNameChange}
         />
@@ -121,12 +121,12 @@ export default function NewChat() {
         </button>
       </div>
       <div className="my-4">{t('or')}</div>
-      <div className="my-4 flex gap-2 justify-center items-center">
+      <div className="flex items-center justify-center gap-2 my-4">
         <input
           placeholder="Paste nsec or chat link"
           type="password"
           id="pasteLink"
-          className="text-center input input-bordered rounded-full p-2"
+          className="p-2 text-center rounded-full input input-bordered"
           onChange={handleKeyInput}
           value={inputKey}
         />

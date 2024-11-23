@@ -17,8 +17,8 @@ const SETTINGS = {
   iris_account: undefined as string | undefined,
 };
 
-if (['iam.luvnft.com', 'beta.iris.to', 'localhost'].includes(window.location.hostname)) {
-  SETTINGS.iris_account = 'iam.luvnft.com';
+if (['iam.hahz.live', 'beta.iris.to', 'localhost'].includes(window.location.hostname)) {
+  SETTINGS.iris_account = 'iam.hahz.live';
 }
 
 const SettingsMenu = (props) => {

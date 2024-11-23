@@ -216,7 +216,7 @@ function ChatMessages({ id }) {
                     <QrCodeIcon width="20" />
                     {t('show_qr_code')}
                   </button>
-                  {/* TODO copy iam.luvnft.com chat link */}
+                  {/* TODO copy iam.hahz.live chat link */}
                   <Copy
                     className="btn btn-neutral btn-sm"
                     copyStr={formatPrivateKey()}

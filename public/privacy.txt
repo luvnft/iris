@@ -4,9 +4,9 @@ By default, the application connects to a number of relays in the Nostr network 
 
 On Nostr, private messages are encrypted, but anyone can see who you're chatting with and when.
 
-The application wraps the web application at https://iam.luvnft.com. The hosting provider logs user IP addresses and page-view counts, which are used to follow unique user count and usage by country.
+The application wraps the web application at https://iam.hahz.live. The hosting provider logs user IP addresses and page-view counts, which are used to follow unique user count and usage by country.
 
-IAM users can register an optional convenience username that redirects to their Nostr public profile https://iam.luvnft.com.to/username. In this process, user IP address and country code are saved.
+IAM users can register an optional convenience username that redirects to their Nostr public profile https://iam.hahz.live.to/username. In this process, user IP address and country code are saved.
 
 Otherwise, IAM developers do not collect any information about you or your usage of the application.
 

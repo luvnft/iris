@@ -15,8 +15,8 @@ const IAM_INFO_ACCOUNT = 'npub1052tld39024jy5pn9a5clv8nddaxe8pywz63ul4ns9h483c3y
 const About: React.FC<RouteProps> = () => (
   <>
     <Header />
-    <div className="main-view prose">
-      <div className="px-2 md:px-4 py-2">
+    <div className="prose main-view">
+      <div className="px-2 py-2 md:px-4">
         <h2 className="mt-0">{t('about')}</h2>
         <p>IAM is a postive vibes only social network with no weird algorithms:</p>
         <ul>
@@ -38,13 +38,13 @@ const About: React.FC<RouteProps> = () => (
           <p>
             <ul>
               <li>
-                <a target="_blank" href="https://iam.luvnft.com">
-                  iam.luvnft.com
+                <a target="_blank" href="https://iam.hahz.live">
+                  iam.hahz.live
                 </a>{' '}
                 (web)
               </li>
               <li>
-                <a target="_blank" href="https://github.com/irislib/iris-messenger/releases/latest">
+                <a target="_blank" href="https://github.com/luv-nft/iris-messenger/releases/latest">
                   Desktop
                 </a>{' '}
                 (macOS, Windows, Linux)
@@ -84,7 +84,7 @@ const About: React.FC<RouteProps> = () => (
         <p>{t('application_security_warning')}</p>
 
         <h3>Follow</h3>
-        <div className="flex flex-row items-center w-full justify-between">
+        <div className="flex flex-row items-center justify-between w-full">
           <Link href={`/${IAM_INFO_ACCOUNT}`} className="flex flex-row items-center gap-2">
             <Avatar str={IAM_INFO_ACCOUNT} width={40} />
             <Name pub={IAM_INFO_ACCOUNT} placeholder="IAM" />
@@ -93,7 +93,7 @@ const About: React.FC<RouteProps> = () => (
         </div>
 
         <p>
-          <a href="https://discord.com/channels/910051231437819914/shop">Discord</a> channel.
+          <a href="https://t.me/+hLW5h98XO8llOTJh">Telegram</a> channel.
         </p>
 
         <p>
